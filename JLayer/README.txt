@@ -60,11 +60,6 @@ FAQ :
                   ~8% under PIII 1Ghz/Win2K+J2SE 1.3.1 (Hotspot).
                   ~12% under PIII 1Ghz/Win2K+J2SE 1.4.1 (Hotspot).
                   ~1% under PIII 1Ghz/Win2K+J2SE 1.5.0 (Hotspot).
-
-- How to contact JLayer developers ?
-  Try to post a thread on Java&MP3 online forums at :
-  http://www.javazoom.net/services/forums/index.jsp
-  You can also contact us at jlayer@javazoom.net for contributions.
  
 
 KNOWN PROBLEMS :
