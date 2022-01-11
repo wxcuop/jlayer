@@ -17,6 +17,7 @@ package jlayer.mp3;
  *   
  *   Original by: http://thiscouldbebetter.wordpress.com/2011/07/04/pausing-an-mp3-file-using-jlayer/
  *   Last modified: 21-jul-2012 by Arthur Assuncao 
+ *   Last modified: 11-jan-2022 by Walter Chang
  *----------------------------------------------------------------------
  */
 
@@ -34,7 +35,6 @@ import javazoom.jl.player.AudioDevice;
 //import javazoom.jl.player.FactoryRegistry;
 import javazoom.jl.player.JavaSoundAudioDeviceFactory;
 
-//use with JLayerPausableTest
 public class MP3Player{
 	// This class is loosely based on javazoom.jl.player.AdvancedPlayer.
 
