@@ -32,11 +32,9 @@ import javazoom.jl.decoder.Header;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.decoder.SampleBuffer;
 import javazoom.jl.player.AudioDevice;
-//import javazoom.jl.player.FactoryRegistry;
-import javazoom.jl.player.JavaSoundAudioDeviceFactory;
+import javazoom.jl.player.FactoryRegistry;
 
 public class MP3Player{
-	// This class is loosely based on javazoom.jl.player.AdvancedPlayer.
 
 	private java.net.URL urlToStreamFrom;
 	private String audioPath;
@@ -95,8 +93,8 @@ public class MP3Player{
 			e.printStackTrace();
 		}
 
-		//this.audioDevice = FactoryRegistry.systemRegistry().createAudioDevice();
-		this.audioDevice = new JavaSoundAudioDeviceFactory().createAudioDevice();
+		this.audioDevice = FactoryRegistry.systemRegistry().createAudioDevice();
+		//this.audioDevice = new JavaSoundAudioDeviceFactory().createAudioDevice();
 
 		this.decoder = new Decoder();
 		this.audioDevice.open(this.decoder);
